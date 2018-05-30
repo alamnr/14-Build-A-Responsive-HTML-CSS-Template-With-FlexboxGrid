@@ -142,9 +142,9 @@ img{
   line-height: 2em;
 }
 
-#Company inpu[type="text"]{
+#company input[type="text"]{
   padding: 7px;
-
+  height: 15px;
 }
 
 #company button{
@@ -188,6 +188,39 @@ img{
   background: #333;
   color: #fff;
 }
+
+/* Contact */
+
+.contact form{
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.contact form input[type="text"]{
+  width: 50%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.contact form textarea{
+  width: 50%;
+  height: 100px;
+
+}
+
+.contact form button{
+  width: 50%;
+  padding: 10px 0;
+  border: 0;
+  background: #222;
+  color: #fff;
+}
+
+.contact form label{
+  text-transform: uppercase;
+}
+
 /* Media Queries */
 @media (max-width:800px) {
   #showcase h1{
